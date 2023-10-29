@@ -1,0 +1,31 @@
+.admin-login-section{
+    height: 100vh;
+    background-color: #333432f7;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-div{
+    background-color: #434343;
+    padding:23px;
+    border-radius: 6px;
+}
+
+input.inp2{
+    background-color: #545757db
+}
+input.inp2:focus{
+    border:2px solid white !important;
+  
+}
+
+input.inp2::placeholder{
+    color:grey
+}
+
+.btn-1{
+    border-radius: 0px;
+    background-color: #388964;
+}

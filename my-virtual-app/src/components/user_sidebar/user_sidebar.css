@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.sidebar-user-profile{
+    margin:23px;
+    width: 100%;
+}
+
+.sidebar-user-profile > img{
+    width: 135px;
+    height: 111px;
+    border-radius: 26px;
+}
+
+.user-name{
+    text-align: center;
+    font-size:28px;
+    font-family: serif;
+}
+
+.menubar-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menubar-ul>ul>li{
+    list-style-type: none;
+    margin: 11px;
+}
+
+.menubar-ul> ul >li >a {
+    text-decoration: none;
+    color: white;
+}
+
+.menubar-ul> ul >li >a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+

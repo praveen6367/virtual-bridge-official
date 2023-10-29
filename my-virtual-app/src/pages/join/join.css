@@ -1,0 +1,43 @@
+#local-video{
+    background-color:#401040;
+    border-radius: 10px;
+    position: relative;
+    margin:5px;
+    border: 3px solid #79d179
+}
+
+#remote-video{
+    background-color:#401040;
+    border-radius: 10px;
+    position: relative;
+    margin:5px;
+
+}
+.callerContainer{
+    width: 90%;
+    margin: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.video-name{
+  position: absolute;
+  bottom: 4px;left: 41px;
+  background-color: #29162b;
+  padding: 0px 8px;
+  margin: 0px 3px;
+}
+
+.video-mic-icon{
+    position: absolute;
+    bottom: 4px;left: 10px;
+    background-color: #29162b;
+    padding: 0px 8px;
+    
+
+}

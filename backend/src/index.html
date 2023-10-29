@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Get started with Voice Calling</title>
+
+
+    <!-- font font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font font-awesome -->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdeliver.net/npm/swiper@10/swiper-bundle.min.css">
+    </link>
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Poppins -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <script type="module" src="/main.js"></script>
+    <h2 class="left-align">Get started with Voice Calling</h2>
+    <div class="row">
+        <div>
+            <button type="button" id="join">Join</button>
+            <button type="button" id="leave">Leave</button>
+        </div>
+    </div>
+    <br>
+    <div id="message"></div>
+    <script src="https://download.agora.io/sdk/release/AgoraRTC_N-4.19.0.js"></script>
+
+    <script>
+        let options =
+        {
+            // Pass your App ID here.
+            appId: '1a44607c167f47cd9eef76b221eda01f',
+            // Set the channel name.
+            channel: 'virtual bridge',
+            // Pass your temp token here.
+            token: '007eJxTYJjnxzE36NHFHnXDeJGWDpU5+134l/k2TAm2Lo4Uap3TuESBwTDRxMTMwDzZ0Mw8zcQ8OcUyNTXN3CzJyMgwNSXRwDCthdUgtSGQkWHGgj/MjAwQCOLzM4RlFpWUJuYoJBVlpqSnKjAwAAD72yFT',
+            // Set the user ID.
+            uid: 9999,
+        };
+
+       
+
+    </script>
+    <!-- <script>
+        const appId = '1a44607c167f47cd9eef76b221eda01f';
+        const appCertificate = '';
+        const channelName = 'virtual bridge';
+        const uid = 9999;
+        const role = '';
+        const token = '007eJxTYJjnxzE36NHFHnXDeJGWDpU5+134l/k2TAm2Lo4Uap3TuESBwTDRxMTMwDzZ0Mw8zcQ8OcUyNTXN3CzJyMgwNSXRwDCthdUgtSGQkWHGgj/MjAwQCOLzM4RlFpWUJuYoJBVlpqSnKjAwAAD72yFT';
+
+        const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' })
+
+        client.init(appId, () => {
+            console.log('AgoraRTC client initialized');
+
+            client.join(token, channelName, null, (uid) => {
+                console.log('User' + uid + ' joined channel ' + channelName);
+            });
+        }, (err) => {
+            console.log('AgoraRTC client INitialized failed', err);
+        })
+    </script>  -->
+</body>
+
+</html>
