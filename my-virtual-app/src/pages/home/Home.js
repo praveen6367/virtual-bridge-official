@@ -1,5 +1,5 @@
-import React from 'react'
-import AgoraRTC from 'agora-rtc-sdk'
+import React from 'react' ; 
+import AgoraRTC from 'agora-rtc-sdk' ;
 import { useEffect, useState, useRef } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import About_section from '../../components/aboutSection/About_section';
